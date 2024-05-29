@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    width: 70px;
+}
+li{
+    list-style: none;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 80px;
+    padding-top: 20px;
+    align-items: center;
+}
+.menu-container{
+    font-size: 20px;
+    display: flex;
+    gap: 40px;
+    color: rgb(228, 103, 7);
+}
+.provide{
+    font-size: 20px;
+    color: rgb(255, 89, 43);
+}
+.header-btn{
+    margin-top: 5px;
+    background-color: rgba(237, 116, 23, 0.846);
+    border: none;
+    padding: 10px;
+}
+.header2{
+    font-size: 25px;
+    text-align:left;
+    text-align-last:center;
+}
+.dp-img{
+    width: 250px;
+    height: 335px;
+}
+.title{
+    color: white;
+    margin-top: 10px;
+    font-family:'Gill Sans',sans-serif;
+    font-style:italic;
+}
+.header1{
+    height: 450px;
+    background-image: url(Image/background.jpg);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.logos{
+    padding-top: 20px;
+    width: 90px;
+    height: 90px;
+    padding: 10px;
+}
+.logos-container{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: rgb(244, 246, 239);
+    width: 90%;
+    position: relative;
+    left: 5%;
+}
+.services{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    padding: 30px 20%;
+}
+.cmn-logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+.Service-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.service-logo{
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+}
+.common-logo{
+    width: 140px;
+}
+.service-card{
+    width: 300px;
+    border: 1px solid black;
+    text-align: center;
+    margin : 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+.details{
+    margin-bottom: 10px;
+}
+.color{
+    color: rgb(237, 125, 5);
+}
+.fa-solid{
+    margin-top: 15px;
+}
+.inner-div{
+    margin-top: 10px;
+    display: flex;
+    justify-content:left;
+    gap: 10px;
+}
+.number{
+    margin-top: 10px;
+}
+.hire-btn{
+    border: none;
+    background-color: rgba(6, 162, 223, 0.92);
+    padding: 5px;
+    font-size: 10px;
+}
+.guard-container{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    margin-top: 15px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.guard{
+    width: 450px;
+    height: 350px;
+}
+.p1{
+    margin-top: 10px;
+}
+.Manager{
+    display: flex;
+    justify-content: center;
+}
+.f-l{
+    width: 40px;
+}
+.f-s-t{
+    margin-bottom: 5px;
+    color: rgb(237, 121, 5);
+}
+.mail{
+    border: none;
+    padding: 10px;
+    background-color: gray;
+}
+::placeholder{
+    color: rgb(244, 237, 237);
+}
+.Manager-footer{
+    width: 250px;
+    text-align: center;
+}
+.m-p1{
+    margin: 10px;
+    color: rgb(228, 235, 241);
+}
+.learn-more{
+    width: 180px;
+    text-align: center;
+    color: rgb(228, 235, 241);
+}
+.address-part{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.address{
+    color: rgb(237, 121, 5);
+}
+.learn-more-more{
+    width: 220px;
+    text-align: center;
+}
+.footer{
+    display: flex;
+    justify-content: left;
+    gap: 40px;
+    /* margin-left: 35px;
+    margin-right: 35px; */
+    padding: 40px;
+    background-color: rgb(35, 32, 32);
+}
+.f-text{
+    color: rgb(228, 235, 241);
+}
